@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "pacFont";
+  src: url("./PAC-FONT.TTF");
+}
+
+html {
+  background-color: rgb(44, 3, 44);
+}
+
+.container {
+  margin: 0 50px;
+  width: 92vw;
+  height: 710px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px 40px;
+}
+
+.grid {
+  margin: 0 100px;
+  margin-left: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black;
+}
+
+.header h1 {
+  padding-top: 5px;
+  margin-left: 430px;
+  margin-top: 25px;
+  font-size: 2.6em;
+  color: #3241cb;
+  font-family: "pacFont", sans-serif;
+}
+.score h2 {
+  font-size: 1.2em;
+  padding-bottom: 8px;
+  font-family: "Press Start 2P", sans-serif;
+  color: #ff4343;
+  margin-left: 15px;
+  text-align: center;
+  position: relative;
+  top: 3px;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+.pac-dot {
+  background-image: url(./money.png);
+  background-size: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.wall {
+  background-image: url(wall.png);
+}
+.power-pellet {
+  background-image: url(./candy.png);
+  background-size: 20px;
+  border-radius: 5px;
+}
+.pacman {
+  border-radius: 10px;
+  background-size: 20px;
+  background-image: url(pacman.png);
+}
+
+.blinky {
+  background-image: url(./ghost1.jpg);
+  background-size: 20px;
+  border-radius: 5px;
+}
+
+.pinky {
+  background-image: url(./ghost2.jpg);
+  background-size: 20px;
+  border-radius: 5px;
+}
+
+.inky {
+  background-image: url(./ghost3.jpg);
+  background-size: 20px;
+  border-radius: 5px;
+}
+
+.clyde {
+  background-image: url(./ghost4.jpg);
+  background-size: 20px;
+  border-radius: 5px;
+}
+
+.scared-ghost {
+  /* background-color: rgb(248, 45, 89); */
+  background-image: url(./pacman-ghost.png);
+  background-size: 20px;
+}
